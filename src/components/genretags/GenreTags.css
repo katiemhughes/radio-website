@@ -1,0 +1,19 @@
+.genretag__container {
+    margin: 10px;
+}
+
+.genretag__btn {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: solid 1px #0466c8;
+    background-color: #ffffff;
+}
+
+.genretag__btn:hover {
+    transform: scale(0.95);
+    background-color: #0466c8;
+    border-color: #ffffff;
+    color: #ffffff;
+}

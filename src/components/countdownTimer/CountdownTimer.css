@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;
+
+    /* width: 100vw; */
+    /* height: 100vh; */
+    font-family: 'Oswald', sans-serif;
+}
+.timer {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+section p:first-child, .timer div:last-child span {
+    font-size: 2em;
+}
+.timer-section {
+    margin: 20px;
+}
+span {
+    margin: 40px;
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .timer {
+        padding: 0;
+    }
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+    .timer-section {
+        margin: 5px;
+    }
+    .timer {
+        padding: 5px;
+        margin-bottom: 3px;
+    }
+}
+
+/* iPhone 5 Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .timer-container {
+        padding-top: 50px;
+    }
+}
+
+/* iPhone 6, 7, 8 Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .timer-container {
+        width: 375px;
+        margin: 0px 30px 0px 30px;
+    }
+}
+
+/* iPhone 6, 7, 8 Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .timer {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .timer {
+        margin-top: 50px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .timer {
+        margin-bottom: 20px;
+    }
+}
+
+/* iPads (landscape) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .timer {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .timer-section {
+        margin: 15px;
+    }
+}
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) {
+    .timer {
+        padding: 40px;
+    }
+}
+
+/* iPad Pro Landscape */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+    .timer {
+        padding: 40px;
+    }
+}
+
+/* Surface Duo Portrait */
+@media only screen and (min-device-width : 540px) and (max-device-width : 720px) and (orientation : portrait) {
+    .timer {
+        margin-bottom: 30px;
+    }
+}
+
+  /* Desktops and laptops */
+  @media only screen and (min-width : 1224px) {
+    .timer-container {
+        margin-top: 25px;
+    }
+    .timer {
+        padding: 15px;
+    }
+}

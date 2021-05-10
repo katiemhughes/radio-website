@@ -1,0 +1,28 @@
+.genres__container {
+    height: 100vh;
+    width: 100%;
+    padding-top: 140px;
+    font-family: 'Poppins', sans-serif;
+}
+.title__row {
+    width: 100%;
+    background-color: #e7e9f0;
+    padding: 20px;
+    text-align: center;
+    color: #0059E8;
+}
+.grid__col {
+    height: 100vh;
+    border: solid 1px #00132d;
+    background-color: #e7e9f0;
+    color: #0059E8;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+}
+.genres__items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
