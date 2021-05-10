@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import Navbar from './components/navbar/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 // import Home from "./components/home/Home";
 // import Genres from './components/genres/Genres';
 import ComingSoon from './components/comingSoon/ComingSoon';
