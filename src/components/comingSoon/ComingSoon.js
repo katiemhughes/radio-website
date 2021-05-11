@@ -7,6 +7,8 @@ function ComingSoon() {
 
     let audio = new Audio("/audio/red-7.mp3")
 
+    let video = document.getElementById("video");
+
     var ONLYONETIME_EXECUTE = null;
     
     window.addEventListener('load', function(){ // on page load
@@ -29,6 +31,7 @@ function ComingSoon() {
                 <div className="row my-row">
                     <div className="col-md-4 video-col">
                         <video
+                            id="video"
                             className="promo-video"
                             src="/videos/release-trailer.mp4"
                             loop
