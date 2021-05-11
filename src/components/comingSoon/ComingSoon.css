@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
     background-color: #010001;
 }
@@ -56,7 +58,7 @@ body {
     color: #ffffff;
     margin: 40px;
     text-align: center;
-    font-family: 'Urae Nium', cursive;
+    font-family: 'Urae Nium', 'Bangers', cursive;
     font-weight: 100;
     line-height: 5px;
     font-size: 7rem;
