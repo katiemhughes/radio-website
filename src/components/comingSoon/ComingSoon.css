@@ -11,10 +11,6 @@ body {
     align-items: center;
     margin: none;
 }
-.my-col {
-    /* border: 3px solid lightblue; */
-    /* margin-top: 75px; */
-}
 .video-col {
     display: flex;
     flex-direction: column;

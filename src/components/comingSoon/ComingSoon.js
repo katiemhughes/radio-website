@@ -7,6 +7,23 @@ function ComingSoon() {
 
     let audio = new Audio("/audio/red-7.mp3")
 
+    var ONLYONETIME_EXECUTE = null;
+    
+    window.addEventListener('load', function(){ // on page load
+    
+    document.body.addEventListener('touchstart', function(e){
+    
+    if (ONLYONETIME_EXECUTE == null) {   
+
+        video.play();
+
+        ONLYONETIME_EXECUTE = 0;
+    }
+
+  }, false)
+ 
+}, false)
+
     return (
             <div className="container my-container">
                 <div className="row my-row">
@@ -17,6 +34,7 @@ function ComingSoon() {
                             loop
                             autoPlay
                             muted
+                            playsInline
                         />
                         <div className="btn-row">
                             <button className="play-btn" onClick={() => audio.play()}><i class="fas fa-play"></i></button>
