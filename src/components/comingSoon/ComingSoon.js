@@ -55,6 +55,11 @@ function ComingSoon() {
                         <CountdownTimer />
                     </div>
                 </div>
+                <div className="row footer-row">
+                    <div className="col footer-col">
+                        <h2 className="footer-text">info@rainycityradio.live</h2>
+                    </div>
+                </div>
             </div>
     )
 }
