@@ -3,13 +3,17 @@
 body {
     background-color: #010001;
 }
+.container {
+    overflow: hidden;
+}
 .my-row {
     /* border: 3px solid lightgray; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .video-col {
     display: flex;
@@ -62,12 +66,15 @@ body {
 .footer-text {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .footer-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 30vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .footer-col {
     display: flex;
@@ -77,11 +84,17 @@ body {
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .my-row {
+        margin: 2rem 0 1.5rem 0rem;
+    }
     .coming-soon-text {
         font-size: 7rem;
     }
     .video-col {
         margin: 0;
+    }
+    .footer-row {
+        margin-top: 0.5rem;
     }
 }
 
@@ -215,7 +228,7 @@ body {
         margin-top: 5px;
     }
     .footer-row {
-        margin-top: -100px;
+        margin-top: -10px;
     }
 }
 
@@ -236,7 +249,7 @@ body {
         font-size: 8rem;
     }
     .footer-row {
-        margin-top: -100px;
+        margin-top: -10px;
     }
 }
 
