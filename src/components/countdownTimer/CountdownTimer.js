@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import '../countdownTimer/CountdownTimer.css';
 
-function CountdownTimer() {
+const CountdownTimer = () => {
     const [timerDays, setTimerDays] = useState('00');
     const [timerHours, setTimerHours] = useState('00');
     const [timerMinutes, setTimerMinutes] = useState('00');
