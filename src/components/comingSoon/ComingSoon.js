@@ -3,28 +3,9 @@ import '../comingSoon/ComingSoon.css';
 import '../heroSection/HeroSection.css';
 import CountdownTimer from '../countdownTimer/CountdownTimer';
 
-function ComingSoon() {
+const ComingSoon = () => {
 
     let audio = new Audio("/audio/red-7.mp3")
-
-//     let video = document.getElementById("video");
-
-//     var ONLYONETIME_EXECUTE = null;
-    
-//     window.addEventListener('load', function(){ // on page load
-    
-//     document.body.addEventListener('touchstart', function(e){
-    
-//     if (ONLYONETIME_EXECUTE == null) {   
-
-//         video.play();
-
-//         ONLYONETIME_EXECUTE = 0;
-//     }
-
-//   }, false)
- 
-// }, false)
 
     return (
             <div className="container my-container">
@@ -37,7 +18,6 @@ function ComingSoon() {
                             loop
                             autoPlay
                             muted
-                            // playsInline
                             poster="/images/release-gif.gif"
                         />
                         <div className="btn-row">
