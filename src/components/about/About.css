@@ -1,0 +1,68 @@
+.about-container {
+    background-color: #020211;
+    color: white;
+    width: 100%;
+    object-fit: contain;
+}
+
+.about-title {
+    padding: 7rem 7rem 0 7rem;
+}
+
+.about-text {
+    padding: 3.5rem 7rem 7rem 7rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .about-title {
+        font-size: 2.5rem;
+        padding: 3.5rem 3.5rem 0 3.5rem;
+    }
+    .about-text {
+        padding: 3.5rem 3.5rem 7rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .about-title {
+        font-size: 2.5rem;
+        padding: 3.5rem 3.5rem 0 3.5rem;
+    }
+    .about-text {
+        padding: 3.5rem 3.5rem 7rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .about-title {
+        padding: 50px 50px 0 50px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-title {
+        padding: 3.5rem 3.5rem 0 3.5rem;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .about-container {
+        padding: 100px;
+    }
+    .about-title {
+        font-size: 75px;
+    }
+    .about-text {
+        font-size: 30px;
+    }
+}
