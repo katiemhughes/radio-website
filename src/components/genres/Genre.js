@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../genretags/GenreTags';
 
-function Genre(props) {
+const Genre = (props) => {
     return (
         <li className="genre">
                 <div className="grid__col">
