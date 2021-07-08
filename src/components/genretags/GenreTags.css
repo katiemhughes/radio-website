@@ -5,6 +5,7 @@
 .genretag__btn {
     font-family: 'Poppins', sans-serif;
     border-radius: 25px;
+    padding: 0.5em;
     cursor: pointer;
     transition: transform 0.3s ease;
     border: solid 1px #0466c8;
