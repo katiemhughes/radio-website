@@ -206,7 +206,7 @@
 
 @media screen and (min-width: 1024px) {
     .right {
-        width: 10%;
+        width: 5%;
     }
     .footer-wrapper .right ul {
         display: flex;
