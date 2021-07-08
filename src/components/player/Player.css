@@ -1,0 +1,11 @@
+.player-wrapper {
+    display: flex;
+}
+
+.play-btn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
