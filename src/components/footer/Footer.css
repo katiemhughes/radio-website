@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-wrapper {
+    width: 100%;
+    height: 175px;
+    background: #080A34;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-wrapper .left {
+    display: flex;
+    align-items: center;
+}
+.footer-wrapper .left .logo {
+    margin-right: 25px;
+    height: 120px;
+    width: 120px;
+}
+.footer-wrapper .centre .nav-menu {
+    display: flex;
+    width: 100%;
+    z-index: 9999;
+}
+.footer-wrapper .centre ul li {
+    margin: 10px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer-wrapper .centre ul li a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #00132d;
+    text-decoration: inherit;
+    font-size: 14px;
+    background:
+    linear-gradient(
+    to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+.footer-wrapper .right ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-wrapper .right ul li {
+    margin: 0 0 7px 7px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper .left .logo {
+        margin-left: 0.5rem;
+    }
+    .wrapper .top-nav .right ul {
+        display: none;
+    }
+    .wrapper .top-nav .centre .nav-menu {
+        display: none;
+    }
+    .nav-menu-active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1.9rem;
+        background-color: #ffffff;
+        left: 0;
+        opacity: 1;
+        transition: all 0.6 ease;
+        z-index: 1;
+        position: absolute;
+    }
+    .logo {
+        height: 55px;
+        width: 55px;
+        margin: -14px -10px -10px -25px;
+    }
+    .nav-link {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+        background: none;
+        cursor: auto;
+        font-size: 1.3rem;
+    }
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px;
+    }
+    .wrapper .top-nav .right .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #00132d;
+    }
+    .menu-icon {
+        margin-top: -10px;
+    }
+    .fa .fa-times {
+        font-size: 2rem;
+    }
+    .hero-container {
+        position: relative;
+    }
+    .cards {
+        position: relative;
+    }
+    .cards:after {
+        content: " ";
+        z-index: 10;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.671);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper .centre ul li {
+        font-size: 11px;
+    }
+    .footer-wrapper .right ul li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-wrapper .right ul {
+        display: none;
+    }
+    .footer-wrapper .centre ul li {
+        text-align: right;
+    } 
+}
+
+@media screen and (min-width: 375px) {
+    .footer-wrapper .right ul {
+        display: none;
+    }
+    .footer-wrapper .centre ul li {
+        text-align: right;
+    }
+    .centre {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .footer-wrapper .centre ul li {
+        width: 100%;
+    }
+
+    .footer-wrapper .centre .nav-menu {
+        width: 70%;
+    }
+    .centre {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-wrapper .right ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer-wrapper {
+        width: 100%;
+    }
+    .bottom-nav {
+        padding: 0 5px;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .right {
+        width: 10%;
+    }
+    .footer-wrapper .right ul {
+        display: flex;
+    }
+    .centre {
+        width: 33%;
+    }
+}
