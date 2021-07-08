@@ -1,16 +1,17 @@
 import React from 'react';
 import  { Link } from "react-router-dom";
 import Button from '../genretags/GenreTags';
+import "../home/Data";
 
-function CardItem(props) {
+const CardItem = (props) => {
     return (
         <>
-            <li className="cards__item">
-                <Link className="cards__item__link" to={props.path}>
-                    <img src={props.src} alt={props.alt} className="cards__item__img" />
-                    <div className="cards__item__info">
+            <li className="cards__items--item">
+                <Link className="cards__items--link" to={props.path}>
+                    <img src={props.src} alt={props.alt} className="cards__items--img" />
+                    <div className="cards__items--info">
                         <h1 className="dj-title">{props.djName}</h1>
-                        <h5 className="cards__item__text">{props.date}</h5>
+                        <h5 className="cards__items--text">{props.date}</h5>
                         <Button
                             onClick={() => {console.log("You clicked on me")}}
                             type="button"
