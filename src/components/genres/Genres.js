@@ -2,7 +2,7 @@ import React from 'react';
 import './Genres.css';
 import Genre from '../genres/Genre';
 
-function Genres() {
+const Genres = () => {
     return (
         <div className="genres__container">
             <div className="title__row">
