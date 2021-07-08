@@ -14,10 +14,10 @@ const Navbar = () => {
       scroll.scrollToTop();
     }
 
-    const play = () => {
-      let audio = document.getElementById("audio");
-      audio.play();
-    }
+    // const play = () => {
+    //   let audio = document.getElementById("audio");
+    //   audio.play();
+    // }
 
     return (
         <>
