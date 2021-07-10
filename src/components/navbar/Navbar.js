@@ -111,10 +111,10 @@ const Navbar = () => {
             <div className="bottom-left">
               <ul>
                 <li><div className="circle red"></div></li>
-                <li>ON AIR</li>
+                <li>OFF AIR</li>
                 <div className="audio-player-container">
                   <Player />
-                  <p className="audio-player-text">Earl Grey</p>
+                  <p className="audio-player-text"></p>
                 </div>
               </ul>
             </div>

@@ -103,7 +103,7 @@
 .wrapper .bottom-nav ul li:nth-child(2) {
     color: red;
 }
-@keyframes up-right {
+/* @keyframes up-right {
     0% {
         transform: scale(1);
         opacity: .25
@@ -116,12 +116,12 @@
         transform: scale(1);
         opacity: .25;
     }
-}
+} */
 .circle {
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    opacity: .50;
+    opacity: .75;
 }
 .red {
     background-color: red;
