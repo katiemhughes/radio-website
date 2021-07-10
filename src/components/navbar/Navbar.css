@@ -127,10 +127,10 @@
     background-color: red;
     top: 50%;
     left: 50%;
-    /* -webkit-animation: up-right 1s infinite;
+    -webkit-animation: up-right 1s infinite;
     -moz-animation: up-right 1s infinite;
     -o-animation: up-right 1s infinite;
-    animation: up-right 1s infinite; */
+    animation: up-right 1s infinite;
 }
 .fa-play {
     margin: 5px 10px 5px 20px;
