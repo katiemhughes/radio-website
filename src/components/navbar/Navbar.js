@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li>ON AIR</li>
                 <div className="audio-player-container">
                   <Player />
-                  <p className="audio-player-text">La Presidenta</p>
+                  <p className="audio-player-text">Maracuya b2b Dig B</p>
                 </div>
               </ul>
             </div>
