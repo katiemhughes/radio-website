@@ -13,7 +13,7 @@ const Footer = () => {
                         <li className="nav-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe__9vaOxPR65MyM0XG7AqM4w9Ss6vYpzXOKESgS9Gec-ujpA/viewform" target="_blank" rel="noreferrer">Send a show proposal</a></li>
                     </ul>
                 </div>
-                <div className="right">
+                <div className="footer-right">
                 <ul className="footer-nav-menu">
                     <li className="nav-item">Artwork by <a href="https://www.crystallui.com/" target="_blank" rel="noreferrer">Crystal Lui</a></li>
                     <li className="nav-item">Website made with ❤️ by <a href="https://lucid-hopper-63096a.netlify.app/" target="_blank" rel="noreferrer">Katie Hughes</a></li>
