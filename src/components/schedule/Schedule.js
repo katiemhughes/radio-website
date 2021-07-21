@@ -25,10 +25,6 @@ const Schedule = () => {
                     showTime="21:00 - 22:00"
                     showName="Trax Haven"
                 />
-                <ScheduleItem
-                    showTime="21:00 - 22:00"
-                    showName="iz.wav"
-                />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
