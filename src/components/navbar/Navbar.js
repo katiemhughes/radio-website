@@ -111,7 +111,7 @@ const Navbar = () => {
             <div className="bottom-left">
               <ul>
                 <li><div className="circle red"></div></li>
-                {/* Write "ON" instead of "OFF" */}
+                {/* Write "ON" instead of "OFF" (or vice versa) */}
                 <li>ON AIR</li>
                 <div className="audio-player-container">
                   <Player />
