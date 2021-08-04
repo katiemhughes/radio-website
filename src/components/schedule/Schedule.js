@@ -3,7 +3,7 @@ import "./Schedule.css";
 import "../home/Data";
 import ScheduleItem from "./ScheduleItem";
 import ScheduleDate from "./ScheduleDate";
-import ScheduleTakeover from "./ScheduleTakeover";
+// import ScheduleTakeover from "./ScheduleTakeover";
 
 const Schedule = () => {
     return (
