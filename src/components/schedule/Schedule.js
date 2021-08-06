@@ -35,19 +35,19 @@ const Schedule = () => {
                     showDate="Friday 6th August"
                 />
                 <ScheduleItem
-                    showTime="19:00 - 20:00"
+                    showTime="18:00 - 19:00"
                     showName="Tom"
                 />
                 <ScheduleItem
-                    showTime="20:00 - 21:00"
+                    showTime="19:00 - 20:00"
                     showName="Mystique"
                 />
                 <ScheduleItem
-                    showTime="21:00 - 22:00"
+                    showTime="20:00 - 21:00"
                     showName="Skiptrace DJs"
                 />
                 <ScheduleItem
-                    showTime="22:00 - 23:00"
+                    showTime="21:00 - 22:00"
                     showName="Sozaboi"
                 />
             </table>
