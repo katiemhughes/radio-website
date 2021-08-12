@@ -11,73 +11,73 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 5th August"
+                    showDate="Thursday 12th August"
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Arctype"
+                    showName="Places and Spaces"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Motor City Donk Ensemble"
+                    showName="Fred Salt"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Izzy Iz"
+                    showName="Lev"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Jess Rose"
+                    showName="Elia"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 6th August"
+                    showDate="Friday 13th August"
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Tom"
+                    showName="Miss Ridd"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Mystique"
+                    showName="Hanz"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Skiptrace DJs"
+                    showName="Carmen"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Sozaboi"
+                    showName="Egg On Toast"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Saturday 7th August"
+                    showDate="Saturday 14th August"
                 />
                 <ScheduleItem
                     showTime="17:00 - 18:00"
-                    showName="GINA"
+                    showName="Polly (Loose Fit)"
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Acidhousedeathsquad"
+                    showName="Lo5ive (Kultura Collective)"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Thtgrl"
+                    showName="Pod Imiya"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Insurrect"
+                    showName="Chandé"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Ben Daddy"
+                    showName="Hardcore Soy"
                 />
                 <ScheduleItem
                     showTime="22:00 - 23:00"
-                    showName="DJ Simcard b2b Harry Amstel"
+                    showName="Cam Spen"
                 />
             </table>
         </div>
