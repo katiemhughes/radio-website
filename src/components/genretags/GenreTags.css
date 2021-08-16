@@ -1,12 +1,13 @@
 .genretag__container {
-    margin: 10px;
+    margin: 0.75rem;
 }
 
 .genretag__btn {
     font-family: 'Poppins', sans-serif;
     border-radius: 25px;
-    padding: 0.5em;
-    cursor: pointer;
+    padding: 0.25rem;
+    width: 4rem;
+    /* cursor: pointer; */
     transition: transform 0.3s ease;
     border: solid 1px #0466c8;
     background-color: #ffffff;
