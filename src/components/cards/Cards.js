@@ -9,11 +9,11 @@ const Cards = () => {
             <h1 className="cards__title">RCR Picks of the Month</h1>
             <ul className="cards__items">
                 <CardItem
-                    src="images/sozaboi.png"
+                    src="images/soza.png"
                     alt="Soza"
                     djName="Soza"
                     date="06 August 2021"
-                    genre1="Soul"
+                    genre1="Boogie"
                     genre2="Disco"
                     genre3="Funk"
                     showLink="https://www.mixcloud.com/RainyCityRadio/sozaboi-060821/"
@@ -31,23 +31,24 @@ const Cards = () => {
                     // path="/genres"
                 />
                 <CardItem
-                    src="images/digb-b2b-izzy-iz.png"
-                    alt="dig B b2b Izzy Iz"
-                    djName="dig B b2b Izzy Iz"
-                    date="10 May 2021"
-                    genre1="Chugs"
-                    genre2="EBM"
-                    genre3="Italo"
-                    showLink="https://www.mixcloud.com/RainyCityRadio/izzy-iz-b2b-dig-b-050821/"
+                    src="images/elia.png"
+                    alt="Elia"
+                    djName="Elia"
+                    date="05 August 2021"
+                    genre1="Improv"
+                    genre2="Experiment"
+                    genre3="Ambient"
+                    // showLink="https://www.mixcloud.com/RainyCityRadio/izzy-iz-b2b-dig-b-050821/"
                     // path="/genres"
                 />
                 <CardItem
-                    src="images/maracuya.jpg"
-                    alt="Maracuya"
-                    djName="MARACUYA"
-                    date="15 May 2021"
-                    genres="Bass"
-                    label="Jungle"
+                    src="images/carmen.png"
+                    alt="Carmen"
+                    djName="Carmen"
+                    date="14 August 2021"
+                    genre1="Experiment"
+                    genre2="Ambient"
+                    genre3="Club"
                     // path="/genres"
                 />
             </ul>
