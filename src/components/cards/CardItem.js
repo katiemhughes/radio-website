@@ -8,7 +8,7 @@ const CardItem = (props) => {
         <>
             <li className="cards__items--item">
                 {/* <Link className="cards__items--link" to={props.path}> */}
-                <a href={props.showLink} target="_blank">
+                <a href={props.showLink} target="_blank" rel="noreferrer">
                     <div className="cards__items--link">
                         <img src={props.src} alt={props.alt} className="cards__items--img" />
                         <div className="cards__items--info">
