@@ -45,20 +45,6 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="schedule"
-                    onClick={closeMobileMenu}
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    activeClass="active">
-                      Schedule
-                  </Link>
-                </li>
-                <li className="nav-item">
                   <Link 
                     className="nav-link" 
                     to="picks" 
@@ -70,6 +56,20 @@ const Navbar = () => {
                     offset={-80}
                     activeClass="active">
                       Picks
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="schedule"
+                    onClick={closeMobileMenu}
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    activeClass="active">
+                      Schedule
                   </Link>
                 </li>
                 {/* <li className="nav-item">
