@@ -38,17 +38,18 @@ const Cards = () => {
                     genre1="Improv"
                     genre2="Experiment"
                     genre3="Ambient"
-                    // showLink="https://www.mixcloud.com/RainyCityRadio/izzy-iz-b2b-dig-b-050821/"
+                    showLink="https://www.mixcloud.com/RainyCityRadio/elia-120821/"
                     // path="/genres"
                 />
                 <CardItem
                     src="images/carmen.png"
-                    alt="Carmen"
-                    djName="Carmen"
+                    alt="Bicho Raro"
+                    djName="Bicho Raro"
                     date="14 August 2021"
                     genre1="Experiment"
                     genre2="Ambient"
                     genre3="Club"
+                    showLink="https://www.mixcloud.com/RainyCityRadio/bicho-raro-130821/"
                     // path="/genres"
                 />
             </ul>
