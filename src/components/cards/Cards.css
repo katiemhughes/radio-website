@@ -73,12 +73,12 @@
     }
     .cards__items--img {
         height: 38vh;
+        object-fit: fill;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .cards__items--img {
         height: 45vh;
-        object-fit: fill;
     }
 }
