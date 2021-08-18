@@ -79,5 +79,6 @@
 @media screen and (min-width: 1440px) {
     .cards__items--img {
         height: 45vh;
+        object-fit: fill;
     }
 }
