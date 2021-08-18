@@ -67,8 +67,8 @@
     }
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .cards__items {
-        /* margin: 5rem; */
-    /* }
-} */
+        flex-wrap: nowrap;
+    }
+}
