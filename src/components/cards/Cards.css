@@ -71,4 +71,7 @@
     .cards__items {
         flex-wrap: nowrap;
     }
+    .cards__items--img {
+        height: 38vh;
+    }
 }
