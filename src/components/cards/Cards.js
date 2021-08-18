@@ -36,7 +36,7 @@ const Cards = () => {
                     djName="Elia"
                     date="05 August 2021"
                     genre1="Improv"
-                    genre2="Experiment"
+                    genre2="Original"
                     genre3="Ambient"
                     showLink="https://www.mixcloud.com/RainyCityRadio/elia-120821/"
                     // path="/genres"
