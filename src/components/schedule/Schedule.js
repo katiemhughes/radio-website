@@ -48,7 +48,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Hannah O'Gorman"
+                    showName="Great Danes"
                 />
                 <ScheduleItem
                     showTime="22:00 - 23:00"
