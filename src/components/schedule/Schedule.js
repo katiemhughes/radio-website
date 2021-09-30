@@ -11,69 +11,65 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 23rd September"
+                    showDate="Thursday 30th September"
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Semi Peppered w/ EJ and Donnagan"
+                    showName="Don't Meet Me At The Club"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Radio Free Manchester"
+                    showName="Preacher (Chicken Shop Events)"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Codex"
+                    showName="Izzy Iz"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Under the Umbrella"
+                    showName="Airali"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 24th September"
+                    showDate="Friday 1st October"
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Shawn Cartier b2b Dufraine"
+                    showName="Tommy"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Medulasa"
+                    showName="Floor Function"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Hannah O'Gorman"
+                    showName="Atiké"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="JavierJoeK"
+                    showName="Mephisto"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Saturday 25th September"
+                    showDate="Saturday 2nd October"
                 />
                 <ScheduleItem
-                    showTime="17:00 - 18:00"
-                    showName="Elektraversion"
-                />
-                <ScheduleItem
-                    showTime="18:00 - 19:00"
-                    showName="Ghoulish b2b Nova Cheq b2b Maracuya"
+                    showTime="17:00 - 19:00"
+                    showName="D. Clemente b2b DJ Sweat"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Ghoulish b2b Nova Cheq b2b Maracuya"
+                    showName="Doyle"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Bomabrd Groove"
+                    showName="Ship Sket"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Bombard Groove"  
+                    showName="Rose A"  
                 />
             </table>
         </div>
