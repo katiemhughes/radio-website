@@ -36,7 +36,7 @@ const Cards = () => {
                     djName="Levi Love"
                     date="05 August 2021"
                     genre1="Afro House"
-                    genre2="Deep House"
+                    genre2="House"
                     genre3="Jazz"
                     showLink="https://www.mixcloud.com/RainyCityRadio/levi-love-100921/"
                     // path="/genres"
