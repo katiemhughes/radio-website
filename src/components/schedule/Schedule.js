@@ -73,7 +73,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="22:00 - 23:00"
-                    showName="Bobo"  
+                    showName="Bobo b2b Lathe"  
                 />
             </table>
         </div>
