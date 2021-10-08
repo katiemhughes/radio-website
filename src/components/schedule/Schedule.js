@@ -60,7 +60,7 @@ const Schedule = () => {
                     showName="Azusa"
                 />
                 <ScheduleItem
-                    showTime="29:00 - 20:00"
+                    showTime="19:00 - 20:00"
                     showName="Burgess"
                 />
                 <ScheduleItem
