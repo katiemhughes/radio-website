@@ -24,7 +24,7 @@ const Player = () => {
         <div className="player-wrapper">
             <audio ref={audioPlayer} src="http://radio.rainycityradio.live:8000/radio.mp3" preload="metadata"></audio>
             {/* Remove "disabled" from the button tag below. */}
-            <button disabled className="play-btn" onClick={togglePlayPause}>{ isPlaying ? <FaStop /> : <FaPlay /> }</button>
+            <button className="play-btn" onClick={togglePlayPause}>{ isPlaying ? <FaStop /> : <FaPlay /> }</button>
         </div>
     )
 }
