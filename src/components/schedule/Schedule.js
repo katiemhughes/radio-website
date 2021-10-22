@@ -32,7 +32,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="18:00 - 19:00"
-                    showName="Herbal Tea w/ George D"
+                    showName="Under The Umbrella"
                 />
                 <ScheduleItem
                     showTime="19:00 - 21:00"
