@@ -116,7 +116,7 @@ const Navbar = () => {
                 <div className="audio-player-container">
                   <Player />
                   {/* Inside the p tags here, write the DJ's name */}
-                  <p className="audio-player-text">DJ Simcard b2b harry amstel</p>
+                  <p className="audio-player-text">GINA the lucid juice queen</p>
                 </div>
               </ul>
             </div>
