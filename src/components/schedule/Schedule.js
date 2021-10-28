@@ -40,7 +40,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Pussy Stamina Present High Voltage"
+                    showName="Pussy Stamina Presents High Voltage"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
