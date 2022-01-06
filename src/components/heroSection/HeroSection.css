@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* video {
     object-fit: cover;
     width: 100%;
@@ -22,7 +22,7 @@
     font-size: 80px;
     margin: -20px 50px 0px 50px;
     text-align: center;
-    font-family: 'Bangers', cursive;
+    font-family: 'Roboto', cursive;
     font-weight: 100;
 }
 .main-logo {
