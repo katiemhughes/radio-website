@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    topLine: 'Broadcasting from Old Trafford, Manchester. see you in the chat room!',
+    topLine: 'Broadcasting from Old Trafford, Manchester. See you in the chat room!',
     img: 'images/mainlogo.png',
     alt: 'Main logo'
 }
