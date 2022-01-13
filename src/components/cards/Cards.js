@@ -8,16 +8,6 @@ const Cards = () => {
         <div className="cards" id="picks">
             <h1 className="cards__title">RCR Picks of the Month</h1>
             <ul className="cards__items">
-                <CardItem
-                    src="images/acidhousedeathsquad.jpg"
-                    alt="Acidhousedeathsquad"
-                    djName="Acidhousedeathsquad"
-                    date="02 September 2021"
-                    genre1="Dub"
-                    genre2="House"
-                    genre3="Downtempo"
-                    showLink="https://www.mixcloud.com/RainyCityRadio/acidhousedeathsquad-020921/"
-                    // path="/genres"
                 />
                 <CardItem
                     src="images/laura.jpg"
