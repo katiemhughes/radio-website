@@ -11,57 +11,49 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 13th January"
-                />
-                <ScheduleItem
-                    showTime="18:00 - 19:00"
-                    showName="Yahuru"
+                    showDate="Thursday 20th January"
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Izzy Iz"
+                    showName="Earl Grey"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Herbal Tea w/ George D"
+                    showName="Ship Sket"
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Treece"
+                    showName="bicho raro"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 14th January"
+                    showDate="Friday 21st January"
                     />
                     <ScheduleItem
                         showTime="18:00 - 19:00"
-                        showName="The Empress"
+                        showName="La Presidenta"
                     />
                     <ScheduleItem
                         showTime="19:00 - 20:00"
-                        showName="Tom"
+                        showName="Xariella presents High Voltage"
                     />
                     <ScheduleItem
                         showTime="20:00 - 21:00"
-                        showName= "Static Interlude"
+                        showName= "Alfaz"
         />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Saturday 15th January"
+                    showDate="Saturday 22nd January"
                 />
                 <ScheduleItem
-                    showTime="19:00 - 20:00"
-                    showName="Allecto"
+                    showTime="18:00 - 20:00"
+                    showName="Yahuru & Capo"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Rose A"
-                />
-                <ScheduleItem
-                    showTime="21:00 - 22:00"
-                    showName="Poison Ivy"  
+                    showName="dig B"  
                 />
             </table>
         </div>
