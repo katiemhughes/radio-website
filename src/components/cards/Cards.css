@@ -68,9 +68,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .cards__items {
-        flex-wrap: nowrap;
-    }
     .cards__items--img {
         height: 38vh;
         object-fit: fill;

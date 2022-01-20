@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap');
 /* video {
     object-fit: cover;
     width: 100%;
@@ -15,6 +15,7 @@
     align-items: center;
     object-fit: contain;
     background-color: #020211;
+    font-family: ;
     height: 50%;
 }
 .hero-container > h1 {
@@ -22,8 +23,7 @@
     font-size: 80px;
     margin: -20px 50px 0px 50px;
     text-align: center;
-    font-family: 'Oswald', cursive;
-    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
 }
 .main-logo {
     height: 450px;
