@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 300px) {
     .hero-container > h1 {
         font-size: 55px;
     }
