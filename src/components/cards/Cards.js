@@ -32,8 +32,8 @@ const Cards = () => {
                 />
                 <CardItem
                     src="images/rob-rosa-evan.jpg"
-                    alt="Rob, Rosa and Evan"
-                    djName="Rob, Rosa, Evan"
+                    alt="MIRE"
+                    djName="MIRE"
                     date="2 Dec 2021"
                     genre1="Ambient"
                     genre2="Post Punk"
