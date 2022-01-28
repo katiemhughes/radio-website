@@ -104,7 +104,7 @@ const Navbar = () => {
                 <li><a href="https://www.instagram.com/rainycityradio" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.facebook.com/rainycityradiomcr" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                 <li><a href="mailto:info@rainycityradio.live" target="_blank" rel="noreferrer"><i class="fas fa-envelope"></i></a></li>
-                <li><a href="https://www.mixcloud.com/RainyCityRadio/" target="_blank" rel="noreferrer"><i className="fas fa-Mixcloud"></i></a></li>
+                <li><a href="https://www.mixcloud.com/RainyCityRadio" target="_blank" rel="noreferrer"><i className="fas fa-Mixcloud"></i></a></li>
               </ul>
             </div>
           </div>
@@ -113,11 +113,11 @@ const Navbar = () => {
               <ul>
                 <li><div className="circle red"></div></li>
                 {/* Write "ON" instead of "OFF" (or vice versa) */}
-                <li>OFF AIR</li>
+                <li>ON AIR</li>
                 <div className="audio-player-container">
                   <Player />
                   {/* Inside the p tags here, write the DJ's name */}
-                  <p className="audio-player-text"></p>
+                  <p className="audio-player-text">YUQQ</p>
                 </div>
               </ul>
             </div>
