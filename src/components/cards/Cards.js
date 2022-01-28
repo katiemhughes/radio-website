@@ -6,7 +6,7 @@ import "../home/Data";
 const Cards = () => {
     return (
         <div className="cards" id="picks">
-            <h1 className="cards__title">RCR Picks of the Month</h1>
+            <h1 className="cards__title">Our Picks of the Month</h1>
             <ul className="cards__items">
                 <CardItem
                     src="images/ship-sket.png"

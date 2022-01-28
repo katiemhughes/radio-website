@@ -4,7 +4,7 @@ export const homeObjOne = {
     alt: 'Main logo'
 }
 export const homeObjTwo = {
-    headLine: 'RCR Picks',
+    headLine: 'Picks',
     img: 'images/mainlogo.png',
     alt: 'Main logo'
 }
