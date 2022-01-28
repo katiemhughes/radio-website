@@ -104,6 +104,7 @@ const Navbar = () => {
                 <li><a href="https://www.instagram.com/rainycityradio" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.facebook.com/rainycityradiomcr" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                 <li><a href="mailto:info@rainycityradio.live" target="_blank" rel="noreferrer"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.mixcloud.com/RainyCityRadio/" target="_blank" rel="noreferrer"><i class="fas fa-speaker"></i></a></li>
               </ul>
             </div>
           </div>
