@@ -11,49 +11,53 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 27th January"
+                    showDate="Thursday 10th February"
                 />
                 <ScheduleItem
-                    showTime="18:00 - 20:00"
-                    showName="MIRE"
+                    showTime="18:00 - 19:00"
+                    showName="GINA"
+                />
+                <ScheduleItem
+                    showTime="19:00 - 20:00"
+                    showName="Izzy Iz"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="Felicia Buena"
+                    showName="Herbal Tea w/ George D"    
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 28th January"
+                    showDate="Friday 11th February"
+                    />
+                    <ScheduleItem
+                        showTime="18:00 - 19:00"
+                        showName="Tommy Cross"
                     />
                     <ScheduleItem
                         showTime="19:00 - 20:00"
-                        showName="YUQQ"
+                        showName="Kiss Me Again"
                     />
                     <ScheduleItem
-                        showTime="20:00 - 21:00"
-                        showName="Fat Britney"
-                    />
-                    <ScheduleItem
-                        showTime="21:00 - 22:00"
-                        showName= "JEROME"
-        />
+                        showTime="20:00 - 22:00"
+                        showName= "Tough Act"
+                />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Saturday 29th January"
+                    showDate="Saturday 12th February"
                 />
                 <ScheduleItem
                     showTime="18:00 - 20:00"
-                    showName="Charlie B w/ Hannah O'Gorman"
+                    showName="Sahar"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
-                    showName="DJ Project Manager"  
+                    showName="Rose A w/ Loney"  
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Jess Rose"  
+                    showName="Pangolin"  
                 />
             </table>
         </div>
