@@ -76,6 +76,7 @@
 .wrapper .top-nav .right ul {
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 .wrapper .top-nav .right ul li {
     margin: 0 7px;
