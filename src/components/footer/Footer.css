@@ -244,6 +244,8 @@
         width: 100px;
     }
     .footer-right {
+        display: flex;
+        justify-content: flex-end;
         font-size: 10px;
         width: 60%;
         color: white;
@@ -257,9 +259,6 @@
     }
     .bottom-nav {
         padding: 0 5px;
-    }
-    .right {
-        width: 100%;
     }
     .centre {
         justify-content: flex-start;

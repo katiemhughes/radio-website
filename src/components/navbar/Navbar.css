@@ -75,6 +75,8 @@
 }
 .wrapper .top-nav .right ul {
     display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
 }
 .wrapper .top-nav .right ul li {
     margin: 0 7px;
@@ -161,6 +163,10 @@
 .audio-player-container {
     display: flex;
     margin-left: 10px;
+}
+
+.mixcloud-icon {
+    filter: invert(30%) sepia(86%) saturate(1916%) hue-rotate(197deg) brightness(99%) contrast(110%);
 }
 
 @media screen and (max-width: 768px) {
