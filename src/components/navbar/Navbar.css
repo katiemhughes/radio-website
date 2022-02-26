@@ -107,7 +107,7 @@
 }
 
 /* select all commented code below and press ctrl and / . That will make the circle flash. Remember to save after doing this (ctrl+S). */
-@keyframes up-right {
+/* @keyframes up-right {
     0% {
         transform: scale(1);
         opacity: .25
@@ -120,7 +120,7 @@
         transform: scale(1);
         opacity: .25;
     }
-}
+} */
 .circle {
     border-radius: 50%;
     width: 15px;
